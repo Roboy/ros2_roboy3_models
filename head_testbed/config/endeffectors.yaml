@@ -1,0 +1,5 @@
+joint_names: [ 'head_axis0', 'head_axis1','head_axis2']
+endeffectors: ['head']
+head:
+  base_link: 'base'
+  joints: ['head_axis0', 'head_axis1','head_axis2']

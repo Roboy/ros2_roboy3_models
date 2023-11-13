@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>ros2_roboy3_models</name>
+    <version>0.0.0</version>
+    <description>roboy3 robots</description>
+    <maintainer email="st@gi.ai">Simon Trendel</maintainer>
+    <license>BSD</license>
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

@@ -1,0 +1,5 @@
+joint_names: [ 'shoulder_right_axis0','shoulder_right_axis1','shoulder_right_axis2','elbow_joint_0', 'elbow_joint_1']
+endeffectors: ['lower_arm']
+lower_arm:
+  base_link: 'torso'
+  joints: ['shoulder_right_axis0','shoulder_right_axis1','shoulder_right_axis2', 'elbow_joint_0', 'elbow_joint_1']

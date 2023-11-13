@@ -1,0 +1,19 @@
+link_relation_names: ["upperarm_left", "lowerarm_left",
+                      "head",
+                      "upperarm_right", "lowerarm_right"]
+
+link_relation:
+  upperarm_left:
+    joint_names: ["shoulder_left_axis0", "shoulder_left_axis1", "shoulder_left_axis2"]
+
+  lowerarm_left:
+    joint_names: ["elbow_left_axis0","elbow_left_axis1"]
+
+  head:
+    joint_names: ["head_axis0", "head_axis1", "head_axis2"]
+
+  upperarm_right:
+    joint_names: ["shoulder_right_axis0", "shoulder_right_axis1", "shoulder_right_axis2"]
+
+  lowerarm_right:
+    joint_names: ["elbow_right_axis0","elbow_right_axis1"]

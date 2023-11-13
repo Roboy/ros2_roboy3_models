@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="neck_magentic_field">
+		<link name="base">
+			<self_collide>false</self_collide>
+			<pose frame="">5.026999444929574e-07 -1.2960817223097907e-05 -0.0034322302160523467 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.1505244639446361</mass>
+				<inertia>
+					<ixx>2.7675362398987692e-05</ixx>
+					<ixy>2.2655212685917386e-09</ixy>
+					<ixz>6.688645496795107e-11</ixz>
+					<iyy>2.773526363485125e-05</iyy>
+					<iyz>-1.1329727892292474e-08</iyz>
+					<izz>2.729546234586366e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="head">
+			<self_collide>false</self_collide>
+			<pose frame="">5.5644940279936455e-08 -0.0002550584831539095 0.013091912031440086 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06717104108693848</mass>
+				<inertia>
+					<ixx>3.449298833589429e-05</ixx>
+					<ixy>3.883368469708961e-12</ixy>
+					<ixz>-7.481201037193102e-11</ixz>
+					<iyy>3.4550264868291755e-05</iyy>
+					<iyz>6.242559403119661e-07</iyz>
+					<izz>9.096460611694988e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="head_collision">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="head_visual">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="head_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>1.6786677721705307e-06</ixx>
+					<ixy>2.168404344971009e-22</ixy>
+					<ixz>-8.348356728138384e-22</ixz>
+					<iyy>1.6786677721705311e-06</iyy>
+					<iyz>-1.8431436932253577e-22</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="head_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="head_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="head_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>2.42706175187388e-08</ixx>
+					<ixy>8.851426536171658e-24</ixy>
+					<ixz>-9.532305500492555e-24</ixz>
+					<iyy>2.4270617518738303e-08</iyy>
+					<iyz>-1.3552527156068806e-24</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="head_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="head_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://neck_magentic_field/meshes/CAD/head_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="head_axis0" type="revolute">
+			<parent>base</parent>
+			<child>head_link1</child>
+			<pose frame="">-1.1393157502461063e-18 -1.7089736253691594e-18 -5.696578751230531e-20 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="head_axis1" type="revolute">
+			<parent>head_link1</parent>
+			<child>head_link2</child>
+			<pose frame="">-3.6357506646816586e-19 2.7137868217667634e-19 3.6183824290223516e-19 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="head_axis2" type="revolute">
+			<parent>head_link2</parent>
+			<child>head</child>
+			<pose frame="">-5.5644940279936455e-08 0.0002550584831539095 -0.013091912031440086 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin"/>
+	</model>
+</sdf>

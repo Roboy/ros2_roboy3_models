@@ -1,0 +1,151 @@
+<robot name="right_arm">
+  <joint name="elbow_joint_0" type="revolute">
+    <parent link="upper_arm" />
+    <child link="elbow" />
+    <origin rpy="0 0 0" xyz="1.1700e-03 -2.1000e-04 -3.1194e-01" />
+    <axis xyz="-1  0  0" />
+    <limit effort="0.0" lower="0.0" upper="1.0" velocity="0.0" />
+  </joint>
+  <joint name="elbow_joint_1" type="revolute">
+    <parent link="elbow" />
+    <child link="lower_arm" />
+    <origin rpy="0 0 0" xyz="-0.00177  0      -0.089" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="0.0" upper="1.0" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_right_axis0" type="revolute">
+    <parent link="torso" />
+    <child link="shoulder_right_link1" />
+    <origin rpy="0 0 0" xyz="-4.4287e-01  2.1000e-04  2.4000e-04" />
+    <axis xyz="0.97437  0      -0.22495" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_right_axis1" type="revolute">
+    <parent link="shoulder_right_link1" />
+    <child link="shoulder_right_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 -1  0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_right_axis2" type="revolute">
+    <parent link="shoulder_right_link2" />
+    <child link="upper_arm" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="-0.22495  0      -0.97437" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <link name="torso">
+    <inertial>
+      <mass value="14.620248282022308" />
+      <origin rpy="0 0 0" xyz="-0.23566  0.00041 -0.05636" />
+      <inertia ixx="0.23427531359205855" ixy="0.0014579355491117724" ixz="-0.19262693759836189" iyy="1.2900541406140884" iyz="-0.004143156810960102" izz="1.1150542050540775" />
+    </inertial>
+    <collision name="torso_collision">
+      <origin rpy="0 0 0" xyz="-0.23566  0.00041 -0.05636" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/torso.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="torso_visual">
+      <origin rpy="0 0 0" xyz="-0.23566  0.00041 -0.05636" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/torso.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="upper_arm">
+    <inertial>
+      <mass value="1.6107710429284596" />
+      <origin rpy="0 0 0" xyz="-0.01776 -0.00075 -0.21082" />
+      <inertia ixx="0.08039547528185673" ixy="-0.00044122263338615446" ixz="-0.15603847010888547" iyy="0.4210036019895847" iyz="-0.0007419455778243127" izz="0.3442627310424434" />
+    </inertial>
+    <collision name="upper_arm_collision">
+      <origin rpy="0 0 0" xyz="-0.01776 -0.00075 -0.21082" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/upper_arm.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="upper_arm_visual">
+      <origin rpy="0 0 0" xyz="-0.01776 -0.00075 -0.21082" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/upper_arm.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow">
+    <inertial>
+      <mass value="0.035913480602683824" />
+      <origin rpy="0 0 0" xyz="-0.00694  0.03025 -0.04363" />
+      <inertia ixx="0.004589960085594564" ixy="0.0004888674766497429" ixz="-0.00572535532185871" iyy="0.011778430725057177" iyz="0.00038601178892672355" izz="0.007275132898623602" />
+    </inertial>
+    <collision name="elbow_collision">
+      <origin rpy="0 0 0" xyz="-0.00694  0.03025 -0.04363" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/elbow.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_visual">
+      <origin rpy="0 0 0" xyz="-0.00694  0.03025 -0.04363" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/elbow.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="lower_arm">
+    <inertial>
+      <mass value="2.0455605412131046" />
+      <origin rpy="0 0 0" xyz="-0.00296 -0.00271 -0.1576" />
+      <inertia ixx="0.6621894157798561" ixy="-0.002530770204603198" ixz="-0.5091607427935234" iyy="1.0696876913582016" iyz="-0.00405789227238752" izz="0.4093816108713452" />
+    </inertial>
+    <collision name="lower_arm_collision">
+      <origin rpy="0 0 0" xyz="-0.00296 -0.00271 -0.1576" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/lower_arm.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="lower_arm_visual">
+      <origin rpy="0 0 0" xyz="-0.00296 -0.00271 -0.1576" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/lower_arm.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_right_link1">
+    <inertial>
+      <mass value="0.09036362653441249" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="7.100858132936025e-06" ixy="8.490465260946267e-06" ixz="9.596855559470765e-06" iyy="0.01773118042040856" iyz="-4.597234499972153e-09" izz="0.01773117929134391" />
+    </inertial>
+    <collision name="shoulder_right_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="shoulder_right_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_right_link2">
+    <inertial>
+      <mass value="0.007113171768014984" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="1.0326132814597322e-07" ixy="6.683456619403606e-07" ixz="7.554376096350275e-07" iyy="0.0013952931977171974" iyz="-3.6188143294127446e-10" izz="0.0013952931088403884" />
+    </inertial>
+    <collision name="shoulder_right_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/collisions/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="shoulder_right_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robots/right_arm/meshes/visuals/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

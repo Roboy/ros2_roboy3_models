@@ -1,0 +1,397 @@
+<sdf version="1.6">
+	<model name="arm_right_testbed">
+		<link name="torso">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0007109025190399357 -0.12557468721553605 -0.06637850142330712 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>5.422363532406723</mass>
+				<inertia>
+					<ixx>0.1718373344437835</ixx>
+					<ixy>-0.0004276859881074785</ixy>
+					<ixz>0.00022644823054395242</ixz>
+					<iyy>0.07113673756722771</iyy>
+					<iyz>-0.053254258427277754</iyz>
+					<izz>0.12049287805030161</izz>
+				</inertia>
+			</inertial>
+			<collision name="torso_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="torso_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="arm_right_upper">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0013986780344004415 0.013530831657366594 -0.19639582659985175 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.5891162771652175</mass>
+				<inertia>
+					<ixx>0.030383429832354075</ixx>
+					<ixy>-1.4268760263931596e-05</ixy>
+					<ixz>0.00011952446167254048</ixz>
+					<iyy>0.0310088505990143</iyy>
+					<iyz>0.0016461207871071</iyz>
+					<izz>0.0013039639229517261</izz>
+				</inertia>
+			</inertial>
+			<collision name="arm_right_upper_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/arm_right_upper.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="arm_right_upper_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/arm_right_upper.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_core_right">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.027062709549146118 0.003964879278521486 -0.3567012890840453 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.007877901491278696</mass>
+				<inertia>
+					<ixx>0.0010054445915930865</ixx>
+					<ixy>6.72382888994765e-07</ixy>
+					<ixz>-7.604777311108837e-05</ixz>
+					<iyy>0.0010151114823121557</iyy>
+					<iyz>1.1141539217951613e-05</iyz>
+					<izz>1.0155477301667562e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_core_right_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/elbow_core_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_core_right_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/elbow_core_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_right_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">7.059749400911077e-16 0.0029999999999986227 -0.6117012890840416 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09036362653441249</mass>
+				<inertia>
+					<ixx>0.033820028122506986</ixx>
+					<ixy>-1.9094968661814705e-19</ixy>
+					<ixz>3.905209489118988e-17</ixz>
+					<iyy>0.033819214849868176</iyy>
+					<iyz>0.00016582664051215107</iyz>
+					<izz>7.904867238554277e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_right_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/wrist_right_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_right_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/wrist_right_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_right_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">-5.302644121387197e-09 0.0029999999999990763 -0.6117012943866874 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0071131466390587095</mass>
+				<inertia>
+					<ixx>0.0026617529018687406</ixx>
+					<ixy>1.1315545639975066e-13</ixy>
+					<ixz>-2.3072446034971827e-11</ixz>
+					<iyy>0.0026616888833981512</iyy>
+					<iyz>1.3053363018819578e-05</iyz>
+					<izz>1.6655029750509346e-07</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_right_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/wrist_right_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_right_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/wrist_right_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="hand_right">
+			<self_collide>false</self_collide>
+			<pose frame="">0.00013217288826555297 0.002758188982148018 -0.62183959046859 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09241914859474509</mass>
+				<inertia>
+					<ixx>0.03575612381751099</ixx>
+					<ixy>-3.656945748546631e-08</ixy>
+					<ixz>7.68186721661004e-06</ixz>
+					<iyy>0.03575627691831428</iyy>
+					<iyz>0.00015820769968198127</iyz>
+					<izz>1.2007002176586599e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="hand_right_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/hand_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="hand_right_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/hand_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="arm_right_lower">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0011632457740073756 0.0023457115259452425 -0.5295605921577712 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.7455482248239025</mass>
+				<inertia>
+					<ixx>0.2162645339946535</ixx>
+					<ixy>-1.0198758649085095e-05</ixy>
+					<ixz>0.0003463582854635617</ixz>
+					<iyy>0.21616592217058261</iyy>
+					<iyz>0.0010191114450963672</iyz>
+					<izz>0.000699232886895972</izz>
+				</inertia>
+			</inertial>
+			<collision name="arm_right_lower_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/arm_right_lower.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="arm_right_lower_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/arm_right_lower.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shoulder_right_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09036362653441248</mass>
+				<inertia>
+					<ixx>7.0915945997451785e-06</ixx>
+					<ixy>4.336808689942018e-23</ixy>
+					<ixz>1.5929098318157032e-19</ixz>
+					<iyy>7.091594599745005e-06</iyy>
+					<iyz>-7.806255641895633e-22</iyz>
+					<izz>7.0915945997451455e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="shoulder_right_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/shoulder_right_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shoulder_right_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/shoulder_right_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shoulder_right_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">-5.3026446748325655e-09 -1.541953739604599e-15 -5.302645986578881e-09 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0071131466390587095</mass>
+				<inertia>
+					<ixx>1.0253197775360437e-07</ixx>
+					<ixy>-3.560185740036257e-20</ixy>
+					<ixz>-5.556536133988211e-23</ixz>
+					<iyy>1.0253182691604955e-07</iyy>
+					<iyz>-3.432211119836469e-22</iyz>
+					<izz>1.0253197775360434e-07</izz>
+				</inertia>
+			</inertial>
+			<collision name="shoulder_right_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/collisions/shoulder_right_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shoulder_right_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://arm_right_testbed/meshes/visuals/shoulder_right_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="wrist_right_axis0" type="revolute">
+			<parent>arm_right_lower</parent>
+			<child>wrist_right_link1</child>
+			<pose frame="">-1.3012464671570084e-16 2.892130979148533e-16 2.842170943040401e-16 0 0 0</pose>
+			<axis>
+				<xyz>1.3642284223867756e-16 -1.0 5.587303406851945e-16</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_right_axis1" type="revolute">
+			<parent>wrist_right_link1</parent>
+			<child>wrist_right_link2</child>
+			<pose frame="">5.302644854134393e-09 -4.474198789239381e-16 5.3026457891292015e-09 0 0 0</pose>
+			<axis>
+				<xyz>-0.9997426093226969 1.2945312255705601e-15 -0.02268733357277429</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_right_axis2" type="revolute">
+			<parent>wrist_right_link2</parent>
+			<child>hand_right</child>
+			<pose frame="">-0.00013217288826480774 0.00024181101785103687 0.010138301384547433 0 0 0</pose>
+			<axis>
+				<xyz>0.022687333572775303 -3.97076054613288e-16 -0.999742609322698</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_right_axis0" type="revolute">
+			<parent>arm_right_upper</parent>
+			<child>elbow_core_right</child>
+			<pose frame="">0.027062709549146097 0.0050351207214776 0.04500000000000298 0 0 0</pose>
+			<axis>
+				<xyz>-7.127396314510678e-14 1.0000000000000004 3.3293785475762395e-16</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_right_axis1" type="revolute">
+			<parent>elbow_core_right</parent>
+			<child>arm_right_lower</child>
+			<pose frame="">-0.001163245774007336 0.0051542884740540165 0.12785930307372922 0 0 0</pose>
+			<axis>
+				<xyz>-7.118520859689015e-14 0.9999999999999994 2.1689167888021493e-16</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_right_axis0" type="revolute">
+			<parent>torso</parent>
+			<child>shoulder_right_link1</child>
+			<pose frame="">-4.063195140408691e-16 1.432522936167108e-16 -7.076702175219953e-17 0 0 0</pose>
+			<axis>
+				<xyz>8.102997968380955e-14 -1.0 7.732512336404062e-16</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_right_axis1" type="revolute">
+			<parent>shoulder_right_link1</parent>
+			<child>shoulder_right_link2</child>
+			<pose frame="">5.302644834010791e-09 1.401693407227264e-15 5.302645817824981e-09 0 0 0</pose>
+			<axis>
+				<xyz>-0.9997426093226974 -7.952906821793287e-14 -0.02268733357277447</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_right_axis2" type="revolute">
+			<parent>shoulder_right_link2</parent>
+			<child>arm_right_upper</child>
+			<pose frame="">-0.0013986780344002554 -0.013530831657366451 0.1963958265998506 0 0 0</pose>
+			<axis>
+				<xyz>0.02268733357277529 1.224061126490078e-15 -0.9997426093226983</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin" />
+	</model>
+</sdf>

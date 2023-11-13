@@ -1,0 +1,44 @@
+#  These controllers are loaded by the robot.launch script, the following types are available
+#  type: cardsflow/ros2_kindyn/TorquePositionController
+#  type: cardsflow/ros2_kindyn/CableLengthController
+#  type: cardsflow/ros2_kindyn/CableLengthVelocityController
+#  type: cardsflow/ros2_kindyn/ForcePositionController
+pinky_shoulder_left_axis0:
+  joint: shoulder_left_axis0
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_shoulder_left_axis1:
+  joint: shoulder_left_axis1
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_shoulder_left_axis2:
+  joint: shoulder_left_axis2
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_elbow_left_axis0:
+  joint: elbow_left_axis0
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_elbow_left_axis1:
+  joint: elbow_left_axis1
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_shoulder_right_axis0:
+  joint: shoulder_right_axis0
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_shoulder_right_axis1:
+  joint: shoulder_right_axis1
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_shoulder_right_axis2:
+  joint: shoulder_right_axis2
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_elbow_right_axis0:
+  joint: elbow_right_axis0
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_elbow_right_axis1:
+  joint: elbow_right_axis1
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_head_axis0:
+  joint: head_axis0
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_head_axis1:
+  joint: head_axis1
+  type: cardsflow/ros2_kindyn/CableLengthController
+pinky_head_axis2:
+  joint: head_axis2
+  type: cardsflow/ros2_kindyn/CableLengthController
