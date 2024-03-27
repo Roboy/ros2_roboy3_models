@@ -1,17 +1,13 @@
-cmake_minimum_required(VERSION 3.8)
-project(ros2_roboy3_models)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
+cmake_minimum_required(VERSION 3.5)
+project(ros2_control_upper_body)
 
 find_package(ament_cmake REQUIRED)
 
+install(
+  DIRECTORY config meshes urdf
+  DESTINATION share/${PROJECT_NAME}
+)
 
-install(FILES
-        package.xml
-        DESTINATION share/${PROJECT_NAME}
-        )
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/${PROJECT_NAME}.dsv.in")
 
 ament_package()

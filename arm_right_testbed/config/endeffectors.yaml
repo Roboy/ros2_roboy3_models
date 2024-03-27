@@ -1,7 +1,0 @@
-joint_names: [ 'shoulder_right_axis0','shoulder_right_axis1','shoulder_right_axis2','elbow_right_axis0',
-               'elbow_right_axis1','wrist_right_axis0','wrist_right_axis1','wrist_right_axis2']
-endeffectors: ['hand_right']
-hand_right:
-  base_link: 'torso'
-  joints: ['shoulder_right_axis0','shoulder_right_axis1','shoulder_right_axis2','elbow_right_axis0','elbow_right_axis1',
-           'wrist_right_axis0','wrist_right_axis1','wrist_right_axis2']
