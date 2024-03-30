@@ -1,6 +1,6 @@
 # ros2_roboy3_models
 
-This package is based on [robots/roboy_upper_body](https://github.com/CARDSflow/robots/tree/master/roboy_upper_body) and it is the ROS2 update of this package. It contains cardsflow upper body robot. It was created during the ROS2 update of the [kindyn](https://github.com/CARDSflow/kindyn/tree/main) package.
+This package is based on [robots/roboy_upper_body](https://github.com/CARDSflow/robots/tree/master/roboy_upper_body) and it is the ROS2 update of this package. It contains the cardsflow upper body robot. It was created during the ROS2 update of the [kindyn](https://github.com/CARDSflow/kindyn/tree/main) package.
 
 ## Usage
 This package is used together with
