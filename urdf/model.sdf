@@ -1,5 +1,5 @@
 <sdf version="1.6">
-	<model name="ros2_control_upper_body">
+	<model name="ros2_roboy3_models">
 		<link name="hand_right">
 			<self_collide>false</self_collide>
 			<pose frame="">-0.22203670607356477 0.0010647780858530846 0.025363454893041204 0.0 -0.0 0.0</pose>
@@ -18,7 +18,7 @@
 			<collision name="hand_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/hand_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/hand_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -26,7 +26,7 @@
 			<visual name="hand_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/hand_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/hand_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -50,7 +50,7 @@
 			<collision name="lowerarm_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/lowerarm_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/lowerarm_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -58,7 +58,7 @@
 			<visual name="lowerarm_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/lowerarm_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/lowerarm_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -82,7 +82,7 @@
 			<collision name="upperarm_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/upperarm_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/upperarm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -90,7 +90,7 @@
 			<visual name="upperarm_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/upperarm_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/upperarm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -114,7 +114,7 @@
 			<collision name="hand_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/hand_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/hand_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -122,7 +122,7 @@
 			<visual name="hand_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/hand_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/hand_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -146,7 +146,7 @@
 			<collision name="lowerarm_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/lowerarm_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/lowerarm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -154,7 +154,7 @@
 			<visual name="lowerarm_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/lowerarm_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/lowerarm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -178,7 +178,7 @@
 			<collision name="upperarm_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/upperarm_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/upperarm_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -186,7 +186,7 @@
 			<visual name="upperarm_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/upperarm_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/upperarm_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -210,7 +210,7 @@
 			<collision name="head_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/head.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/head.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -218,7 +218,7 @@
 			<visual name="head_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/head.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/head.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -242,7 +242,7 @@
 			<collision name="torso_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/torso.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/torso.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -250,7 +250,7 @@
 			<visual name="torso_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/torso.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/torso.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -274,7 +274,7 @@
 			<collision name="elbow_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/elbow_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/elbow_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -282,7 +282,7 @@
 			<visual name="elbow_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/elbow_right.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/elbow_right.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -306,7 +306,7 @@
 			<collision name="shoulder_right_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/shoulder_right_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/shoulder_right_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -314,7 +314,7 @@
 			<visual name="shoulder_right_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/shoulder_right_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/shoulder_right_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -338,7 +338,7 @@
 			<collision name="shoulder_right_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/shoulder_right_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/shoulder_right_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -346,7 +346,7 @@
 			<visual name="shoulder_right_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/shoulder_right_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/shoulder_right_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -370,7 +370,7 @@
 			<collision name="wrist_right_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/wrist_right_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/wrist_right_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -378,7 +378,7 @@
 			<visual name="wrist_right_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/wrist_right_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/wrist_right_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -402,7 +402,7 @@
 			<collision name="wrist_right_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/wrist_right_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/wrist_right_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -410,7 +410,7 @@
 			<visual name="wrist_right_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/wrist_right_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/wrist_right_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -434,7 +434,7 @@
 			<collision name="elbow_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/elbow_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/elbow_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -442,7 +442,7 @@
 			<visual name="elbow_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/elbow_left.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/elbow_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -466,7 +466,7 @@
 			<collision name="shoulder_left_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/shoulder_left_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/shoulder_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -474,7 +474,7 @@
 			<visual name="shoulder_left_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/shoulder_left_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/shoulder_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -498,7 +498,7 @@
 			<collision name="shoulder_left_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/shoulder_left_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/shoulder_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -506,7 +506,7 @@
 			<visual name="shoulder_left_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/shoulder_left_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/shoulder_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -530,7 +530,7 @@
 			<collision name="wrist_left_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/wrist_left_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/wrist_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -538,7 +538,7 @@
 			<visual name="wrist_left_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/wrist_left_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/wrist_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -562,7 +562,7 @@
 			<collision name="wrist_left_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/wrist_left_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/wrist_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -570,7 +570,7 @@
 			<visual name="wrist_left_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/wrist_left_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/wrist_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -594,7 +594,7 @@
 			<collision name="head_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/head_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/head_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -602,7 +602,7 @@
 			<visual name="head_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/head_link1.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/head_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -626,7 +626,7 @@
 			<collision name="head_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/collisions/head_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/collisions/head_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -634,7 +634,7 @@
 			<visual name="head_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://ros2_control_upper_body/meshes/visuals/head_link2.stl</uri>
+						<uri>model://ros2_roboy3_models/meshes/visuals/head_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(ros2_control_upper_body)
+project(ros2_roboy3_models)
 
 find_package(ament_cmake REQUIRED)
 

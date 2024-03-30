@@ -153,13 +153,13 @@
     <collision name="hand_right_collision">
       <origin rpy="0 0 0" xyz="-0.00506  0.00106 -0.06163" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/hand_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/hand_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="hand_right_visual">
       <origin rpy="0 0 0" xyz="-0.00506  0.00106 -0.06163" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/hand_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/hand_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -172,13 +172,13 @@
     <collision name="lowerarm_right_collision">
       <origin rpy="0 0 0" xyz="-0.00733 -0.00117 -0.11185" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/lowerarm_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/lowerarm_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="lowerarm_right_visual">
       <origin rpy="0 0 0" xyz="-0.00733 -0.00117 -0.11185" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/lowerarm_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/lowerarm_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -191,13 +191,13 @@
     <collision name="upperarm_left_collision">
       <origin rpy="0 0 0" xyz="0.01104  0.00134 -0.18587" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/upperarm_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/upperarm_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="upperarm_left_visual">
       <origin rpy="0 0 0" xyz="0.01104  0.00134 -0.18587" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/upperarm_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/upperarm_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -210,13 +210,13 @@
     <collision name="hand_left_collision">
       <origin rpy="0 0 0" xyz="0.00506  0.00106 -0.06163" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/hand_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/hand_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="hand_left_visual">
       <origin rpy="0 0 0" xyz="0.00506  0.00106 -0.06163" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/hand_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/hand_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -229,13 +229,13 @@
     <collision name="lowerarm_left_collision">
       <origin rpy="0 0 0" xyz="0.00049 -0.00129 -0.09306" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/lowerarm_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/lowerarm_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="lowerarm_left_visual">
       <origin rpy="0 0 0" xyz="0.00049 -0.00129 -0.09306" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/lowerarm_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/lowerarm_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -248,13 +248,13 @@
     <collision name="upperarm_right_collision">
       <origin rpy="0 0 0" xyz="-0.01115  0.00138 -0.17499" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/upperarm_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/upperarm_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="upperarm_right_visual">
       <origin rpy="0 0 0" xyz="-0.01115  0.00138 -0.17499" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/upperarm_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/upperarm_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -267,13 +267,13 @@
     <collision name="head_collision">
       <origin rpy="0 0 0" xyz="-0.0002  -0.01814  0.1557" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/head.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/head.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="head_visual">
       <origin rpy="0 0 0" xyz="-0.0002  -0.01814  0.1557" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/head.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/head.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -286,13 +286,13 @@
     <collision name="torso_collision">
       <origin rpy="0 0 0" xyz="0.00776 0.00282 0.62658" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/torso.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/torso.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="torso_visual">
       <origin rpy="0 0 0" xyz="0.00776 0.00282 0.62658" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/torso.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/torso.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -305,13 +305,13 @@
     <collision name="elbow_right_collision">
       <origin rpy="0 0 0" xyz="-0.00474  0.03025 -0.04463" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/elbow_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/elbow_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="elbow_right_visual">
       <origin rpy="0 0 0" xyz="-0.00474  0.03025 -0.04463" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/elbow_right.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/elbow_right.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -324,13 +324,13 @@
     <collision name="shoulder_right_link1_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="shoulder_right_link1_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/shoulder_right_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -343,13 +343,13 @@
     <collision name="shoulder_right_link2_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="shoulder_right_link2_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/shoulder_right_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -362,13 +362,13 @@
     <collision name="wrist_right_link1_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/wrist_right_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/wrist_right_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="wrist_right_link1_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/wrist_right_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/wrist_right_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -381,13 +381,13 @@
     <collision name="wrist_right_link2_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/wrist_right_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/wrist_right_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="wrist_right_link2_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/wrist_right_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/wrist_right_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -400,13 +400,13 @@
     <collision name="elbow_left_collision">
       <origin rpy="0 0 0" xyz="-0.00325  0.03025 -0.04463" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/elbow_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/elbow_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="elbow_left_visual">
       <origin rpy="0 0 0" xyz="-0.00325  0.03025 -0.04463" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/elbow_left.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/elbow_left.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -419,13 +419,13 @@
     <collision name="shoulder_left_link1_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="shoulder_left_link1_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -438,13 +438,13 @@
     <collision name="shoulder_left_link2_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="shoulder_left_link2_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -457,13 +457,13 @@
     <collision name="wrist_left_link1_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="wrist_left_link1_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -476,13 +476,13 @@
     <collision name="wrist_left_link2_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="wrist_left_link2_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -495,13 +495,13 @@
     <collision name="head_link1_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/head_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/head_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="head_link1_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/head_link1.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/head_link1.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -514,13 +514,13 @@
     <collision name="head_link2_collision">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/collisions/head_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/collisions/head_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="head_link2_visual">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="package://ros2_control_upper_body/meshes/visuals/head_link2.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://ros2_roboy3_models/meshes/visuals/head_link2.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
